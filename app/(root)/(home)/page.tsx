@@ -35,7 +35,7 @@ const Home: React.FC = () => {
       initial="hidden"
       animate="visible"
     >
-      {/* Main background container with glassmorphism effect */}
+      
       <motion.div
         className="h-[303px] w-full rounded-2xl bg-hero bg-cover bg-center shadow-lg overflow-hidden"
         variants={itemVariants}
@@ -64,7 +64,6 @@ const Home: React.FC = () => {
         </div>
       </motion.div>
 
-      {/* MeetingTypeList Component remains unchanged */}
       <MeetingTypeList />
     </motion.section>
   );
