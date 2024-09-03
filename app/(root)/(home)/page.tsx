@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import MeetingTypeList from '@/components/MeetingTypeList';
-import { useEffect, useState } from 'react';
+import React from 'react';  // Ensure React is imported
 
 const Home: React.FC = () => {
   const now = new Date();
@@ -71,4 +71,3 @@ const Home: React.FC = () => {
 };
 
 export default Home;
-
